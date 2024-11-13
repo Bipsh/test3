@@ -9,4 +9,9 @@ function exponent(a, b, c) {
     return (a + b) ** c;
 }
 let exponentResult = exponent(number, number, number);
-console.log(exponentResult);
+if (exponentResult % 2 === 0) {
+    console.log(exponentResult + " Число четное");
+}
+else {
+    console.log(exponentResult + " Число нечетное");
+}
